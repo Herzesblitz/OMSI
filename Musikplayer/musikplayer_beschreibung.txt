@@ -1,0 +1,17 @@
+Wir haben 5 Benutzer erstellt mit folgenden Verhalten:
+ 1. Der erste Benutzer überspringt keine Lieder, deswegen hängt der 
+    Rank nur vom Zufall ab.
+ 2. Der zweite Benutzer hat für jedes Lied zufällige Präferenzen, die 
+    am Anfang festgelegt sind. Man kann kann die Präferenz schwach in den
+    Gewichtungen sehen.
+ 3. Der dritte Benutzer präferiert nur ein Lied und überspringt alle anderen.
+    Dadurch ist ein Lied überproportional oft vorne.
+ 4. Der vierte Benutzer präferiert kein Lied, die Gewichtungen hängen allein von
+    den Zufallszahlen ab.
+ 5. Der fünfte Benutzer hat die Präferenzen 0.1, 0.2, 0.3 usw. bis 1.0, 
+    die mit Zufallszahlen zwischen 0.8 und 1.0 multipliziert werden, also 
+    nur ein wenig beeinflusst sind.
+
+Unsere Ausgabe der Experimente erfolgt in fünf Matrizen, bei der die Spalten die 
+Lieder und die Zeilen den Rang in der Playlist darstellen. Der Eintrag in den Matrizen
+ist wie oft das Lied an dieser Stelle gespielt wurde.
